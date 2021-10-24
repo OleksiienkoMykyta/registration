@@ -1,0 +1,52 @@
+body {
+    background-color: #ddd;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#wrap {
+    margin-top: 10%;
+    max-width: 178px;
+}
+
+#titleWrapper {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#firstName, #lastName, #email, #password, #titleWrapper {
+    margin-bottom: 10px;
+}
+
+#passwordText, #emailText, #firstNameText, #lastNameText {
+    margin: 0;
+}
+
+.tooGuessable, .notValid {
+    color: red;
+    border-bottom: red solid;
+}
+
+.veryGuessable {
+    color: orangered;
+    border-bottom: orangered solid;
+}
+
+.somewhatGuessable {
+    color: darkorange;
+    border-bottom: darkorange solid;
+}
+
+.safelyUnguessable {
+    color: darkgreen;
+    border-bottom: darkgreen solid;
+}
+
+.veryUnguessable, .valid {
+    color: green;
+    border-bottom: green solid;
+}
